@@ -1,5 +1,5 @@
 {
-  "name": "js9-mariano-aguilar",
+  "name": "js10-mariano-aguilar",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Marianoaguilar97/js9-mariano-aguilar.git"
+    "url": "git+https://github.com/Marianoaguilar97/js10-mariano-aguilar.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Marianoaguilar97js9-mariano-aguilar/issues"
+    "url": "https://github.com/Marianoaguilar97js10-mariano-aguilar/issues"
   },
-  "homepage": "https://github.com/Marianoaguilar97/js9-mariano-aguilarl#readme",
+  "homepage": "https://github.com/Marianoaguilar97/js10-mariano-aguilarl#readme",
   "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.16"
