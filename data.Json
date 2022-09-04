@@ -5,7 +5,7 @@
     "id": 0,
     "imgSrc": "./imagenes/caribe.png",
     "lugares": 20,
-    "nombre": "caribe",
+    "nombre": "Caribe",
     "precio": 300000
     },
     {
@@ -14,7 +14,7 @@
     "id": 1,
      "imgSrc": "./imagenes/roma.png",
     "lugares": 35,
-    "nombre": "roma",
+    "nombre": "Roma",
     "precio": 380000
     },
     {
@@ -23,7 +23,7 @@
     "id": 2,
     "imgSrc": "./imagenes/paris.png",
     "lugares": 40,
-    "nombre": "paris",
+    "nombre": "Paris",
     "precio": 270000
     },
     {
@@ -32,7 +32,7 @@
     "id": 3,
     "imgSrc": "./imagenes/berlin.png",
     "lugares": 23,
-    "nombre": "berlin",
+    "nombre": "Berlin",
     "precio": 420000
     }
 ]

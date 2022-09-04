@@ -155,6 +155,26 @@ function cambiarCantidadUnidades(accion, id){
     actualizarCarrito()
 }
 
+// Vaciado carrito
+
+const botonVaciado = document.querySelector(".boton--vaciado")
+
+function vaciadoCarrito (){
+  carrito= []
+  carritoEl.innerHTML = "";
+  Toastify({
+  
+    text: "Se vacio su carrito con exito",
+    
+    duration: 3000
+    
+    }).showToast();
+}
+ 
+botonVaciado.addEventListener("click", vaciadoCarrito)
+
+// Alertas
+
 const alertaCompra = () => {
   Toastify({
   
@@ -168,6 +188,8 @@ const alertaCompra = () => {
 const botonCompra = document.querySelector(".boton--compra")
 botonCompra.addEventListener("click", alertaCompra)
 
+//fetch de datos
+
 fetch("data.Json")
 .then((Response) => Response.json())
 .then((data) => 
@@ -178,3 +200,4 @@ fetch("data.Json")
      renderProductos(viajes)
       
 })
+
