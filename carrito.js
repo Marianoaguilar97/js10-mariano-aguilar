@@ -129,22 +129,8 @@ function cambiarCantidadUnidades(accion, id){
         if (item.id === id){
             if (accion === "minus" && numeroDeUnidades > 1) {
                 numeroDeUnidades--;
-                Toastify({
-  
-                  text: "Se elimino una unidad de el carrito con éxito",
-                  
-                  duration: 3000
-                  
-                  }).showToast();
             } else if (accion === "plus" && numeroDeUnidades < item.lugares) {
                 numeroDeUnidades++;
-                Toastify({
-  
-                  text: "Se agrego una unidad de el carrito con éxito",
-                  
-                  duration: 3000
-                  
-                  }).showToast();
              }
         }
         return {
